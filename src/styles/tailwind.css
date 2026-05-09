@@ -1,6 +1,0 @@
-@import "tailwindcss"; 
-
-/* Broaden the source to ensure it finds your deeply nested Figma components */
-@source "../../**/*.{js,ts,jsx,tsx}"; 
-
-@import 'tw-animate-css';

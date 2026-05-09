@@ -1,13 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>potentiall-green</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potentiall Green | Under Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #1A1A1A; }
+        .bg-pattern {
+            background-image: url('https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.1;
+        }
+    </style>
+</head>
+<body class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    
+    <div class="absolute inset-0 bg-pattern z-0"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-[#1A1A1A] z-1"></div>
+
+    <div class="relative z-10 max-w-4xl px-6 text-center">
+        <div class="mb-12 flex flex-col items-center">
+            <div class="w-16 h-16 bg-[#2D5A27] rounded-2xl flex items-center justify-center shadow-lg shadow-[#2D5A27]/20 mb-6">
+                <span class="text-white text-3xl font-black italic">P</span>
+            </div>
+            <h1 class="text-white text-2xl font-black tracking-[0.5em] uppercase">Potentiall <span class="text-[#6bc73a]">Green</span></h1>
+        </div>
+
+        <h2 class="text-5xl lg:text-7xl font-black text-white tracking-tighter leading-tight mb-8">
+            Engineering the <br /> 
+            <span class="text-[#6bc73a]">Future of Energy.</span>
+        </h2>
+
+        <p class="text-gray-400 text-lg lg:text-xl font-medium max-w-2xl mx-auto mb-12 leading-relaxed">
+            Architecting next-generation renewable infrastructure and sustainable ecosystems for a carbon-neutral India. Our digital platform is currently being engineered for perfection.
+        </p>
+
+        <div class="inline-flex items-center gap-3 px-6 py-3 bg-white/5 border border-white/10 rounded-full mb-12">
+            <div class="w-2.5 h-2.5 bg-[#6bc73a] rounded-full animate-pulse"></div>
+            <span class="text-[10px] font-black text-white uppercase tracking-[0.3em]">System Status: Under Development</span>
+        </div>
+
+        <div class="pt-8 border-t border-white/5">
+            <p class="text-gray-500 text-xs font-black uppercase tracking-widest mb-4">Urgent Inquiries</p>
+            <a href="mailto:info@potentiallgreen.com" class="text-[#6bc73a] font-bold hover:text-white transition-colors">
+                info@potentiallgreen.com
+            </a>
+        </div>
+    </div>
+
+    <div class="absolute bottom-8 left-0 right-0 text-center">
+        <p class="text-gray-600 text-[10px] font-black uppercase tracking-[0.4em]">
+            &copy; 2026 Potentiall Facility Services Pvt. Ltd.
+        </p>
+    </div>
+</body>
 </html>
