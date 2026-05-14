@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Mail, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const teams = {
   technical: [
@@ -158,10 +159,12 @@ export default function OurTeam() {
               We're looking for individuals who are passionate about scaling renewable energy infrastructure across the globe.
             </p>
           </div>
+          <Link to = "/careers">
           <button className="group flex items-center gap-4 bg-[#2D5A27] text-white px-10 py-5 rounded-full font-black uppercase tracking-widest text-[10px] hover:bg-[#6bc73a] transition-all duration-500 shadow-xl shadow-[#2D5A27]/20">
             View Openings
             <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
           </button>
+          </Link>
         </div>
       </section>
     </main>

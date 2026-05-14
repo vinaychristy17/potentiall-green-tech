@@ -308,7 +308,7 @@ export default function ImpactDashboard() {
     <section
       ref={sectionRef}
       id="impact-dashboard"
-      className="relative py-24 overflow-hidden bg-white" // Changed to white/bright bg
+      className="relative py-16 overflow-hidden bg-white" // Changed to white/bright bg
     >
       {/* Background Layer - Brightened and Optimized */}
       <div className="absolute inset-0 z-0">

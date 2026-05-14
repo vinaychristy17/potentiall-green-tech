@@ -51,7 +51,7 @@ const row2 = [
 
 export default function WhyChooseSection() {
   return (
-    <section className="relative py-32 overflow-hidden bg-white">
+    <section className="relative py-16 overflow-hidden bg-white">
       {/* Solar Panels Background */}
       <div className="absolute inset-0 z-0">
         <div

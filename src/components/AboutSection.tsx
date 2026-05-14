@@ -1,8 +1,9 @@
 import { CheckCircle2 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="relative py-24 overflow-hidden">
+    <section id="about" className="relative py-16 overflow-hidden">
       {/* Solar Installation Background */}
       <div className="absolute inset-0 z-0">
         <div
@@ -62,7 +63,7 @@ export default function AboutSection() {
               </div>
             ))}
           </div>
-
+          <Link to="/about/leadership-message">
           <button className="group px-10 py-5 bg-[#2D5A27] text-white rounded-2xl font-black hover:bg-[#1A1A1A] transition-all hover:shadow-[0_20px_40px_rgba(45,90,39,0.3)] hover:-translate-y-1">
             <span className="flex items-center gap-3">
               Learn More About Us
@@ -81,6 +82,7 @@ export default function AboutSection() {
               </svg>
             </span>
           </button>
+          </Link>
         </div>
       </div>
     </section>

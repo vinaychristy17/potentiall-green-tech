@@ -9,7 +9,7 @@ export default function ClientShowcase() {
   ];
 
   return (
-    <section className="relative py-24 overflow-hidden">
+    <section className="relative py-16 overflow-hidden">
       {/* Energy Background */}
       <div className="absolute inset-0 z-0">
         <div

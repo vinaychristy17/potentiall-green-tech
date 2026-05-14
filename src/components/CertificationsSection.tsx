@@ -7,7 +7,7 @@ const certifications = [
     icon: Award,
     title: "ISO 9001:2015",
     subtitle: "Quality Management",
-    bg: "https://images.unsplash.com/photo-1581091870627-3f9f6a1d1b0e?w=1200&q=80",
+    bg: "/iso-9001.png",
     desc: "Ensures consistent product quality and customer satisfaction.",
   },
   {
@@ -37,7 +37,7 @@ export default function CertificationsSection() {
   const [hovered, setHovered] = useState<number | null>(null);
 
   return (
-    <section className="relative py-28 overflow-hidden">
+    <section className="relative py-16 overflow-hidden">
 
       {/* Background */}
       <div className="absolute inset-0">

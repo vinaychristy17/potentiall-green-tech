@@ -9,6 +9,7 @@ import AboutSection from "./components/AboutSection";
 import ServicesGrid from "./components/ServicesGrid";
 import SolutionsSection from "./components/SolutionsSection";
 import WhyChooseSection from "./components/WhyChooseSection";
+import CapacityTimeline from "./components/CapacityTimeline";
 import NetworkMap from "./components/NetworkMap";
 import CertificationsSection from "./components/CertificationsSection";
 import ClientsSection from "./components/ClientsSection";
@@ -56,6 +57,7 @@ export default function App() {
               <ServicesGrid />
               <SolutionsSection />
               <WhyChooseSection />
+              <CapacityTimeline/>
               <NetworkMap />
               <CertificationsSection />
               <ClientsSection />

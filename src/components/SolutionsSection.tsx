@@ -49,7 +49,7 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="relative py-24 bg-white overflow-hidden">
+    <section id="services" className="relative py-16 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
         
         {/* Header Area */}

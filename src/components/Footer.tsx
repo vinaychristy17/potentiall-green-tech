@@ -41,7 +41,7 @@ export default function Footer() {
           <div className="space-y-8">
             <Link to="/" className="inline-block transition-opacity hover:opacity-80">
                {/* LOGO PLACEHOLDER - Replace 'logo.png' with your file in public folder */}
-               <img src="/logo.png" alt="Potentiall Green Logo" className="h-16 w-auto object-contain" />
+               <img src="/logo.png" alt="Potentiall Green Power Solutions Logo" className="h-30 w-auto object-contain" />
             </Link>
 
             <p className="text-white/70 text-sm leading-relaxed font-medium">

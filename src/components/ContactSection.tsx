@@ -1,8 +1,9 @@
 import { ArrowRight, Download, Zap } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="relative py-32 overflow-hidden">
+    <section id="contact" className="relative py-16 overflow-hidden">
       {/* Solar Technology Background */}
       <div className="absolute inset-0 z-0">
         <div
@@ -36,12 +37,14 @@ export default function ContactSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+          <Link to="/contact">
           <button className="group px-12 py-5 bg-white text-[#2D5A27] rounded-2xl font-black text-lg hover:bg-[#88f452] hover:text-[#1A1A1A] transition-all hover:shadow-[0_20px_50px_rgba(136,244,82,0.3)] hover:-translate-y-1">
             <span className="flex items-center gap-3">
               Request Free Consultation
               <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform duration-300" />
             </span>
           </button>
+          </Link>
 
           <button className="px-12 py-5 border-2 border-white/40 text-white rounded-2xl font-black text-lg backdrop-blur-sm hover:bg-white hover:text-[#2D5A27] hover:border-white transition-all duration-500 flex items-center gap-3">
             <Download className="w-5 h-5" />

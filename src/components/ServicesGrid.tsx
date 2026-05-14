@@ -44,7 +44,7 @@ export default function ServicesGrid() {
   const xMovement = useTransform(scrollYProgress, [0, 1], ["-5%", "5%"]);
 
   return (
-    <section ref={containerRef} className="relative py-32 overflow-hidden bg-[#0a0a0a]">
+    <section ref={containerRef} className="relative py-16 overflow-hidden bg-[#0a0a0a]">
       {/* Fixed Background Image Implementation */}
       <div className="absolute inset-0 z-0">
         <motion.div
