@@ -32,8 +32,8 @@ export default function ContactSection() {
         </h2>
 
         <p className="text-xl text-white font-medium mb-12 leading-relaxed max-w-2xl mx-auto">
-          Partner with India's leading Solar EPC provider. Get a comprehensive consultation and a
-          bespoke energy roadmap designed for the next quarter-century.
+          Partner with a solar EPC company built for India's clean energy future. Get a comprehensive
+          consultation and a bespoke energy roadmap tailored to your project.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">

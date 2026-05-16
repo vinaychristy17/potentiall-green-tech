@@ -245,45 +245,45 @@ interface Metric {
 const metrics: Metric[] = [
   {
     icon: Battery,
-    value: 900,
+    value: 50,
     suffix: "+",
-    unit: "MWp",
-    label: "Total Capacity",
-    description: "Grid-scale deployment",
-    context: "Sufficient to power over 650,000 homes with clean, sustainable energy annually.",
+    unit: "MW",
+    label: "Pipeline Capacity",
+    description: "Projects in development",
+    context: "Initial solar project pipeline across South India, with capacity targets scaling rapidly through 2027.",
     color: "#6bc73a",
     bgImage: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&q=80&w=600",
   },
   {
     icon: Users,
-    value: 20,
+    value: 10,
     suffix: "+",
-    unit: "Clients",
-    label: "Active Partners",
+    unit: "Partners",
+    label: "Early Partners",
     description: "Strategic partnerships",
-    context: "Trusted by industry leaders across 12 states to drive India's energy transition.",
+    context: "Building a trusted network of clients and partners across manufacturing and energy sectors in India.",
     color: "#6bc73a",
     bgImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=600",
   },
   {
     icon: Leaf,
-    value: 2,
-    suffix: "M+",
-    unit: "Tons",
-    label: "Carbon Offset",
-    description: "Environmental impact",
-    context: "Equivalent to planting 33 million trees or removing 400,000 cars from the road.",
+    value: 2026,
+    suffix: "",
+    unit: "",
+    label: "Founded",
+    description: "Year of incorporation",
+    context: "Launched in 2026 as a dedicated solar EPC entity, spun off from Potentiall Facility Services.",
     color: "#6bc73a",
     bgImage: "https://images.unsplash.com/photo-1466611653911-954ffaa137a8?auto=format&fit=crop&q=80&w=600",
   },
   {
     icon: TrendingUp,
-    value: 98,
-    suffix: "%",
+    value: 10,
+    suffix: " GW",
     unit: "",
-    label: "Reliability",
-    description: "Operational excellence",
-    context: "Advanced AI monitoring ensuring maximum uptime and optimized asset performance.",
+    label: "Vision 2030",
+    description: "Capacity target",
+    context: "A bold five-year growth trajectory from pipeline to 10 GW — powered by institutional capital and execution discipline.",
     color: "#6bc73a",
     bgImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=600",
   },
@@ -350,8 +350,8 @@ export default function ImpactDashboard() {
             viewport={{ once: true }}
             className="text-gray-600 text-base font-medium max-w-sm border-l-2 border-[#6bc73a] pl-6 mb-2"
           >
-            We transform raw potential into high-performance renewable infrastructure, 
-            delivering absolute transparency through data-driven results.
+            We are at the start of an ambitious journey — building India's next major solar 
+            EPC company from the ground up, with real projects, real partners, and a clear 2030 roadmap.
           </motion.p>
         </div>
 

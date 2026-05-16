@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { TrendingUp, Target, BarChart3 } from "lucide-react";
 
 const timelineData = [
-  { year: "2026", capacity: "50 MW", grow: "Baseline", color: "from-[#00A8E8] to-[#007EA7]", width: "15%" },
+  { year: "2026", capacity: "Pipeline", grow: "In Development", color: "from-[#00A8E8] to-[#007EA7]", width: "15%" },
   { year: "2027", capacity: "250 MW", grow: "5.0x growth", color: "from-[#007EA7] to-[#004A7C]", width: "30%" },
   { year: "2028", capacity: "1 GW", grow: "4.0x growth", color: "from-[#004A7C] to-[#2D5A27]", width: "50%" },
   { year: "2029", capacity: "4 GW", grow: "4.0x growth", color: "from-[#2D5A27] to-[#4A8D3F]", width: "75%" },
@@ -28,7 +28,7 @@ export default function CapacityTimeline() {
             Our Capacity Build Projection-<span className="text-[#2D5A27]">Timeline</span>
           </h2>
           <p className="mt-4 text-gray-500 max-w-2xl font-medium">
-            From 50 MW to 10 GW — a strategic five-year deployment trajectory powered for institutional capital and long-term sustainability.
+            From our first projects in 2026 to a 10 GW ambition by 2030 — a strategic five-year deployment roadmap backed by disciplined execution and institutional-grade planning.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function CapacityTimeline() {
               <BarChart3 className="w-6 h-6" />
             </div>
             <p className="text-white font-bold text-xl">
-              200× Capacity Growth Across Five Years
+              Targeting 200× Capacity Growth In Next Five Years
             </p>
           </div>
           <div className="h-px flex-1 bg-white/10 hidden md:block mx-4" />

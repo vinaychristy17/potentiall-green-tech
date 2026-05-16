@@ -33,16 +33,16 @@ export default function ClientsSection() {
         <div className="text-center mb-20">
           <div className="inline-flex items-center px-4 py-1.5 bg-[#2D5A27]/10 rounded-full border border-[#2D5A27]/20 mb-6">
             <span className="text-[10px] font-black text-[#2D5A27] uppercase tracking-[0.3em]">
-              Our Global Network
+              Our Network
             </span>
           </div>
           <h2 className="text-5xl lg:text-6xl font-black text-[#1A1A1A] leading-[0.9] tracking-tighter mb-6">
-            Trusted by Industry <br />
-            <span className="text-[#2D5A27]">Well-known Clients.</span>
+            Building Partnerships <br />
+            <span className="text-[#2D5A27]">Across Industries.</span>
           </h2>
           <p className="text-xl text-[#1A1A1A]/80 font-medium max-w-2xl mx-auto">
-            Providing resilient renewable infrastructure for the leaders of 
-            global manufacturing and energy production.
+            From day one, we are engaging with forward-thinking organisations across
+            manufacturing, energy, and infrastructure who share our vision for a cleaner India.
           </p>
         </div>
 

@@ -5,16 +5,16 @@ const plants = [
   {
     name: "Karnataka Gulbarga",
     state: "Karnataka",
-    capacity: "150 MWp",
-    status: "Active",
+    capacity: "Pipeline",
+    status: "In Development",
     x: 395,
     y: 540,
     img: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&q=80&w=800"
   },
   {
-    name: "Tamil Nadu Kamuthi",
+    name: "Tamil Nadu",
     state: "Tamil Nadu",
-    capacity: "200 MWp",
+    capacity: "Pipeline",
     status: "Upcoming",
     x: 425,
     y: 630,
@@ -23,25 +23,25 @@ const plants = [
   {
     name: "Telangana Floating Solar",
     state: "Telangana",
-    capacity: "120 MWp",
-    status: "Active",
+    capacity: "Pipeline",
+    status: "In Development",
     x: 440,
     y: 460,
     img: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&q=80&w=800"
   },
   {
-    name: "Andhra Pradesh Anantapur",
+    name: "Andhra Pradesh",
     state: "Andhra Pradesh",
-    capacity: "150 MWp",
-    status: "Active",
+    capacity: "Pipeline",
+    status: "Upcoming",
     x: 460,
     y: 530,
     img: "https://images.unsplash.com/photo-1548337138-e87d889cc369?auto=format&fit=crop&q=80&w=800"
   },
   {
-    name: "Maharastra Rooftop Grid",
-    state: "Maharastra",
-    capacity: "500 MWp",
+    name: "Maharashtra Rooftop Grid",
+    state: "Maharashtra",
+    capacity: "Pipeline",
     status: "Upcoming",
     x: 375,
     y: 610,
@@ -50,8 +50,8 @@ const plants = [
   {
     name: "Karnataka Bidar",
     state: "Karnataka",
-    capacity: "150 MWp",
-    status: "Optimizing",
+    capacity: "Pipeline",
+    status: "In Development",
     x: 415,
     y: 420,
     img: "https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&q=80&w=800"
@@ -77,13 +77,13 @@ export default function NetworkMap() {
             </div>
 
             <h2 className="text-5xl lg:text-6xl font-black leading-[0.9] tracking-tighter text-[#004A7C]">
-              The Pan-India <br />
-              <span className="text-[#2D5A27]">Development Vision-2030 </span>
+              Our Project <br />
+              <span className="text-[#2D5A27]">Development Pipeline — Vision 2030</span>
             </h2>
           </motion.div>
 
           <p className="text-gray-500 text-lg max-w-sm">
-            A high-efficiency renewable network perfectly synchronized across the Southern peninsula.
+            Our development pipeline spans the Southern peninsula — with projects at various stages of feasibility, design, and pre-construction across key solar-rich regions.
           </p>
         </div>
 

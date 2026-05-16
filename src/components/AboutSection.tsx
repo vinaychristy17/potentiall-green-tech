@@ -36,23 +36,23 @@ export default function AboutSection() {
 
           <div className="space-y-6 mb-10">
             <p className="text-xl text-[#1A1A1A] leading-relaxed font-medium">
-              Born from the legacy of <span className="font-black">Potentiall Facility Services</span>,
-              we bring decades of infrastructure excellence to the renewable energy sector. Since 2018,
-              Potentiall Green has emerged as a premier Solar EPC provider.
+              Spun off from the infrastructure expertise of <span className="font-black">Potentiall Facility Services</span>,
+              Potentiall Green was founded in 2026 with a singular mission — to accelerate India's transition
+              to clean, reliable solar energy through precision engineering and end-to-end EPC execution.
             </p>
 
             <p className="text-lg text-[#1A1A1A]/90 leading-relaxed font-medium">
-              We combine technical expertise with proven execution capabilities to deliver solar power
-              plants that exceed performance expectations across 15+ Indian states.
+              We bring deep operational know-how from our parent company into the renewable energy sector,
+              with active project pipelines across South India and an ambitious growth roadmap to 2030.
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
             {[
               "ISO 9001:2015 Certified",
-              "900+ MWp Commissioned",
-              "98% System Uptime",
+              "Projects in Pipeline",
               "24/7 O&M Support",
+              "South India Focus",
             ].map((item, index) => (
               <div
                 key={index}

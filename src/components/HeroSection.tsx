@@ -1,13 +1,13 @@
-import { ArrowRight, Play } from "lucide-react";
+import { Play } from "lucide-react";
 import { useNavigate } from "react-router-dom"; // Hook for navigation
 
 export default function HeroSection() {
   const navigate = useNavigate();
 
   // FUNCTIONAL HANDLERS
-  const handleConsultation = () => {
-    navigate("/contact");
-  };
+  // const handleConsultation = () => {
+  //   navigate("/contact");
+  // };
 
   const handleViewProjects = () => {
     // Option A: If you have a separate projects page
@@ -55,13 +55,13 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-xl lg:text-2xl text-white/90 font-medium leading-relaxed max-w-2xl mb-12">
-            Premium turnkey solar power plant solutions from architectural design to
-            nationwide commissioning. Powering India's transition to a carbon-neutral future.
+            Turnkey solar power plant solutions from architectural design to
+            commissioning — built on the operational backbone of Potentiall Facility Services.
           </p>
 
           <div className="flex flex-wrap gap-6">
             {/* FUNCTIONAL: Request Consultation */}
-            <button 
+            {/* <button 
               onClick={handleConsultation}
               className="group px-10 py-5 bg-[#2D5A27] text-white rounded-2xl font-black text-lg hover:bg-[#6bc73a] hover:text-[#1A1A1A] transition-all hover:shadow-[0_20px_40px_rgba(107,199,58,0.4)] hover:-translate-y-1"
             >
@@ -69,7 +69,7 @@ export default function HeroSection() {
                 Request Consultation
                 <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform duration-300" />
               </span>
-            </button>
+            </button> */}
 
             {/* FUNCTIONAL: View Projects */}
             <button 
