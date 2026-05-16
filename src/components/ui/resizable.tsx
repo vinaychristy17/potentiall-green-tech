@@ -1,10 +1,11 @@
 "use client";
 
 import { GripVerticalIcon } from "lucide-react";
+// react-resizable-panels v4 renamed: PanelGroup → Group, ResizeHandle → Separator
 import {
-  PanelGroup,
+  Group as PanelGroup,
   Panel,
-  ResizeHandle,
+  Separator as ResizeHandle,
 } from "react-resizable-panels";
 
 import { cn } from "./utils";
